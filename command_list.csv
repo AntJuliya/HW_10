@@ -1,0 +1,43 @@
+    1  git config --global user.name
+    2  git config --global user.email
+    3  git config --global user.name "AntJuliya"
+    4  git config --global user.email "antonenkojulia96@gmail.com"
+    5  git config --global user.name
+    6  git config --global user.email
+    7  git clone https://github.com/AntJuliya/HW-10.git
+    8  cd HW_10
+    9  pwd
+   10  ls
+   11  cd HW-10
+   12  touch text_ignore.txt
+   13  ls
+   14  echo "text_ignore.txt" >> .gitignore
+   15  cat .gitignore
+   16  notepad .gitignore
+   17  cat .gitignore
+   18  git status
+   19  git add .
+   20  git status
+   21  git commit -m "Update gitignore"
+   22  git status
+   23  touch main_test.txt
+   24  ls
+   25  git add .
+   26  git commit -m "Add main test file"
+   27  git status
+   28  git checkout -b develop
+   29  touch develop_test.txt
+   30  ls
+   31  git add .
+   32  git commit -m "Add develop test file"
+   33  echo "just a small change" >> develop_test.txt
+   34  git status
+   35  git add .
+   36  git commit -m "Update develop test file"
+   37  git status
+   38  help checkout
+   39  info checkout
+   40  git checkout main
+   41  git merge develop
+   42  git log
+   43  history > command_list.csv
