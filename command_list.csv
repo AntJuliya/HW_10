@@ -41,3 +41,19 @@
    41  git merge develop
    42  git log
    43  history > command_list.csv
+   44  ls
+   45  git add .
+   46  git status
+   47  git commit -m "Add command list"
+   48  git status
+   49  git push
+   50  git remote -v
+   51  git remote set-url origin https://github.com/AntJuliya/HW_10.git
+   52  git remote -v
+   53  cat command_list.csv
+   54  cd . .
+   55  cd ..
+   56  pwd
+   57  git clone https://github.com/AntJuliya/HW_10.git
+   58  cd HW-10
+   59  history > command_list.csv
